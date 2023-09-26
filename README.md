@@ -17,5 +17,5 @@
 * [Three Wins ** - ](./src/threeWins/task.md)
 * [Game of Life ** - ](./src/gameOfLife/task.md)
 * [Candy Crush *** - ](./src/candyCrush/task.md)
-* [Image Processing *** - ](./src/imageProcessing/task.md)
+* [Image Processing *** -  ](./src/imageProcessing/task.md)
 

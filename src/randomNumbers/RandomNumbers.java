@@ -10,6 +10,7 @@ public class RandomNumbers{
         for (int i = 0; i < number; i++) {
             randomNumbers [i] = randomNumberGenerator.nextInt();
         }
+
         return randomNumbers;
     }
 

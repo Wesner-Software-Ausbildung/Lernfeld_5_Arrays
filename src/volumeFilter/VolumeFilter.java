@@ -13,6 +13,7 @@ public class VolumeFilter {
             }
             smoothedValues[i] = sum / 3;
         }
+
         int n = values.length - 1;
         smoothedValues[0] = (values[0] + values[1]) / 2;
         smoothedValues[n] = (values[n - 1] + values[n]) / 2;
