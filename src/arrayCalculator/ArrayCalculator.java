@@ -17,26 +17,19 @@ public class ArrayCalculator {
 
     public int[] sumArrays(int[] array1, int[] array2) throws IllegalArgumentException {
 
-        if (array1 == null) {
+        if (array1 == null || array2 == null) {
             return null;
         }
 
+        if (array1.length != array2.length) {
+            throw new IllegalArgumentException("Both arrays must have the same length");
+        }
         int[] result = new int[array1.length];
         for (int i = 0; i < array1.length; i++) {
-            result[i] = array1[i] * 2;
+            result[i] = array1[i] + array2[i];
         }
-        //return result;
-
-        if (array2 == null) {
-            return null;
-        }
-        int[] result2 = new int[array2.length];
-        for (int i = 0; i < array2.length; i++) {
-            result2[i] = array2.length * 3 + 1;
-        }
-
-
         return result;
+
     }
 
     public int[] swapArrays(int[] array) {
